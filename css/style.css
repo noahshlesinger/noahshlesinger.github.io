@@ -44,13 +44,20 @@ footer {
     padding: 10px 20px;
 
 }
+
 img.world-triathlon {
-    width: 100px;
-    height:35px;
+    width: 130px;
+    height:50px;
     padding: 0;
 }
 img.usa-triathlon {
-    width: 70px;
-    height:35px;
+    width: 90px;
+    height:50px;
+    padding: 0;
+}
+
+img.defunkify {
+    width: 140px;
+    height: 50px;
     padding: 0;
 }
