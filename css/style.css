@@ -2,8 +2,8 @@ body {
     background: rgb(40,75,90);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
 }
 
 header {
@@ -35,8 +35,22 @@ li {display: inline-block;
 margin-right: 20px;
 }
 
+li.header {
+    font-size: 150%;
+}
+
 footer {
     background: white;
     padding: 10px 20px;
 
+}
+img.world-triathlon {
+    width: 100px;
+    height:35px;
+    padding: 0;
+}
+img.usa-triathlon {
+    width: 70px;
+    height:35px;
+    padding: 0;
 }
