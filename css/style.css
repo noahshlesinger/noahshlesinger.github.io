@@ -1,16 +1,42 @@
-head { color: #dc3545
-}
 body {
+    background: rgb(40,75,90);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-    color: #bb;
+header {
+    background: gray;
+    padding: 20px;
+}
 
-  }
-  section {
-    background-image: url("../images/world_triathlon_logo.png");
-    background-size: 100% 100%;
-    text-align: left;
-  }
-  /* min-width: 320px;
-  max-width: 1000px;
-  padding: 50px;
-  margin: 0 auto; */
+section {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    background: gray;
+    margin: auto;
+    width: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {display: inline-block;
+margin-right: 20px;
+}
+
+footer {
+    background: white;
+    padding: 10px 20px;
+
+}
