@@ -32,11 +32,21 @@ ul {
 }
 
 li {display: inline-block;
-margin-right: 20px;
+    margin-right: 20px;
+    color:white;
+
 }
 
 li.header {
     font-size: 150%;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 footer {
@@ -46,7 +56,7 @@ footer {
 }
 
 img.world-triathlon {
-    width: 130px;
+    width: 150px;
     height:50px;
     padding: 0;
 }
@@ -57,13 +67,13 @@ img.usa-triathlon {
 }
 
 img.defunkify {
-    width: 140px;
+    width: 160px;
     height: 50px;
     padding: 0;
 }
 
 img.gu_logo {
-    width: 50px;
+    width: 60px;
     height:50px;
     padding: 0;
 }
