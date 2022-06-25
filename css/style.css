@@ -1,10 +1,16 @@
+head { color: #dc3545
+}
 body {
 
-    color: #f7f7f7;
+    color: #bb;
 
   }
-  .jumbotron {
+  section {
     background-image: url("../images/world_triathlon_logo.png");
     background-size: 100% 100%;
     text-align: left;
   }
+  /* min-width: 320px;
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto; */
