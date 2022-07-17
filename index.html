@@ -1,74 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noah Shlesinger</title>
+    <head>
 
-    <link rel="stylesheet" href="css/style.css"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Noah Shlesinger</title>
     
-</head>
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;
+    200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e14ace7f41.js"></script>
+    </head>
 <body>
-    <header>
+    <section class = "header">
         <nav>
-            <ul class = "tabs">
-                <li><a href = "index.html">Overview</a></li>
-                <li><a href = "background.html">Background</a></li>
-                <li><a href = "sponsorship.html">Sponsorship</a></li>
-            </ul>
-
+            <a href = "index.html"><img src="images/usat.png"></a>
+            <a href = "index.html"><img src="images/defunkify.png"></a>
+            <div class = "nav-links" id = "navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Background</a></li>
+                    <li><a href="">Sponsorship</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick = "showMenu()"></i>
         </nav>
+<div class = "text-box">
+    <h1>Noah Shlesinger</h1>
+    <p>Professional Triathlete</p>
+    <a href="" class = "hero-btn">Learn about Noah's Goals</a>
 
-        <head>
-            <ul>
-            <h1 class ="center">Noah Shlesinger</h1>
-            <!-- <img class = "jpelite" src = "images/jpelite.png" alt JPELITE> -->
-            </ul>
-        </head>
-    </header>
+</div>
+</section>
+<!-- ------Background----- -->
+<section class = "background">
+    <h1>Recent Results</h1>
+    <p></p>
 
+    <div class = "row">
+        <div class = "background-col">
+            <h3>Ironman 70.3 Oregon</h3>
+            <p>Finish: 28th Overall (3rd in AG)<br>
+                Swim: 25th (17:49)<br>
+                Bike: 54th (2:25:47)<br>
+                Run: 32nd (1:28:47)</p>
+        </div>
+        <div class = "background-col">
+            <h3>Clermont Elite Development Race-<br>Draft Legal Sprint</h3>
+            <p>Finish: 11th Overall<br>
+                Swim: 59th (11:48)<br>
+                Bike: 4th (29:36)<br>
+                Run: 5th (16:59)</p>
+        </div>
+        <div class = "background-col">
+            <h3>Tritonman - Draft Legal Sprint</h3>
+            <p>Finish: 13th Overall<br>
+                Swim: 42th (12:53)<br>
+                Bike: 8th (31:21)<br>
+                Run: 8th (16:54)</p>
+        </div>
+    </div>
+</section>
+<!-- ------------ Recent Results----------- -->
+<!-- 
+<section class ="results">
+    <h1>Sponsorships</h1>
+    <p></p>
 
-    <img class="profile" src="images/profile.jpg" alt="Profile">
-    <h2> <strong></strong>
-        <dl class = "results">
-            <dt style = color:gray> High School</dt>
-                <dl><small style= color:darkorange>3rd at Oregon Cross Country State Championships as a team &#129353</small></dl>
+    <div class="row">
+        <div class = "results-col">
+            <img src="images/bike.jpg" alt="swim">
+            <div class = "layer"></div>
+            <p>bike</p>
+        </div>
+        <div class = "results-col">
+            <img src="images/run.PNG" alt="swim">
+            <div class = "layer"></div>
+            <p>run</p>
+        </div>
+    </div>
+</section> -->
 
-            <dt style = color:gray>College</dt>
-                <dl>
-                    <ul>
-                        <li><small>7th in first collegiate race (Aggieathlon 2019)</small></li>
-                        <li><small>10th at first Draft-Legal race (Bearathlon 2019)</small></li>
-                        <li><small>11th at non-draft sprint distance (Tritonman 2020)</small></li>
-                        <li><small>5th at Draft-legal (Treeathlon 2020)</small></li>
-                    </ul>
-                </dl>
-
-            <dt style = color:gray>Post-College</dt>
-                <dl>
-                    <ul>
-                        <li><small style = color:gold>2021 USAT Oregon State Champion &#127942</small></li>	
-                        <li><small>On USAT's team headed for 2022 Worlds: Olympic Distance</small></li>
-                    </ul>
-                </dl>
-            
-                            
-        </dl>
-        <p style="background-color: white ; margin: 50 px; padding: 10px; color: black; height:100px">Joined JP Elite in June, 2022<br>Now, training for the 2028 Los Angeles Olympics<img class = "jpelite" src="images/jpelite.png"></p>
-    </h2>
-
-
-
+<!-- -----JavaScript for Toggle Menu--- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
 </body>
-
-<footer style = "position:sticky;">
-
-    <ul>
-        <li><img class= "world-triathlon" src="images/world_triathlon_logo.png" alt="WTS"></li>
-        <li><img class= "usa-triathlon" src="images/usat.png" alt="USAT"></li>
-        <li><img class= "defunkify" src="images/defunkify.png" alt="defunkify"></li>
-        <li><img class= "gu_logo" src="images/gu_logo.png" alt="Gu Energy Labs"></li>
-    </ul>
-</footer>
 </html>
