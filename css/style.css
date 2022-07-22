@@ -227,15 +227,16 @@ h3{
     
 }
 .bio-col p{
-    font-size:medium;
+    font-size:larger;
     text-align: left;
     margin-top: 2%;
     padding-bottom: 20px;
-}
+    line-height: 140%;
+}   
 
 .bio-col img{
     flex-basis: 50%;
-    height: 100%;
+    height: 80%;
     width: 100%;
     object-fit: contain;
     
