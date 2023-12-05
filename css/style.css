@@ -126,16 +126,15 @@ nav .fa{
     }
 }
 
-/* ---------results-------- */
+/* ---------sponsors-------- */
 
-.results{
+.sponsors{
     width:100%;
     height:100vh;
     margin:auto;
     text-align:center;
     padding-top:100px;
     box-sizing:border-box;
-    /* background:linear-gradient(rgba(103, 96, 182, 0.866),rgba(40,40,40,0.5)); */
 }
 h1{
     font-size: 36px;
@@ -143,7 +142,7 @@ h1{
 
 }
 p{
-    color:white;
+    color:black;
     font-size:14px;
     font-weight: 300;
     line-height:22px;
@@ -155,85 +154,34 @@ p{
     justify-content: space-between;
 }
 
-.results-col-left{
+.sponsors-col {
     flex-basis: 33%;
-    background:linear-gradient(rgb(169, 188, 237), rgb(113, 113, 224));
-    border-radius: 10px;
     box-sizing:border-box;
+    margin: 10px;
     transition: 0.5s;
     text-align:center;
-
-  }
-  .results-col-mid{
-    flex-basis: 33%;
-    background:linear-gradient(rgb(169, 188, 237), rgb(113, 113, 224));
-    border-radius: 10px;
-    box-sizing:border-box;
-    transition: 0.5s;
-    text-align:center;
-
-  }
-  .results-col-right{
-    flex-basis: 33%;
-    background:linear-gradient(rgb(169, 188, 237), rgb(113, 113, 224));
-    border-radius: 10px;
-    box-sizing:border-box;
-    border-color: black;
-    border-width: 5px;
-    transition: 0.5s;
-    text-align:center;
-
+    object-position:bottom;
+    max-width: 30%;
   }
 
+.sponsors-col img{
+
+    align-items: center;
+    width:200px;
+
+}
 h3{
     text-align:center;
     font-weight: 600px;
     margin:10px 0;
 }
 
-.results-col-left:hover{
-    box-shadow:0 0 20px 0px rgba(0,0,0,0.4);
-}
-.results-col-mid:hover{
-    box-shadow:0 0 20px 0px rgba(0,0,0,0.4);
-}
-.results-col-right:hover{
+.sponsors-col:hover{
     box-shadow:0 0 20px 0px rgba(0,0,0,0.4);
 }
 
-.results-col-left img {
-    border-radius:5px;
-	max-width: 480px;
-	width: 100%;
-	height: 500px;
-        display: block;
-        margin:20px auto;
-        object-fit:cover;
-        box-sizing:border-box;
-	
-    }
-    .results-col-mid img {
-        border-radius:5px;
-        max-width: 480px;
-        width: 100%;
-        height: 500px;
-            display: block;
-            margin:20px auto;
-            object-fit:cover;
-        box-sizing:border-box;
-        object-position:center;
-        }
-        .results-col-right img {
-            border-radius:5px;
-            max-width: 480px;
-            width: 100%;
-            height: 500px;
-                display: block;
-                margin:20px auto;
-                object-fit:cover;
-                box-sizing:border-box;
-            
-            }
+
+
 @media(max-width:900px){
     .row{
         flex-direction:column;
@@ -245,7 +193,7 @@ h3{
     margin:auto;
     text-align:center;
     padding-top:50px;
-    background:linear-gradient(rgba(40,40,40,0.4),rgba(0, 33, 222, 0.7));
+    background:black;
 }
 .bio-col{
     flex-basis:50%;
@@ -256,6 +204,7 @@ h3{
     margin-left:5%;
     margin-right:5%;
     
+    
 }
 .bio-col p{
     font-size:larger;
@@ -263,6 +212,7 @@ h3{
     margin-top: 2%;
     padding-bottom: 20px;
     line-height: 140%;
+    color:white;
 }   
 
 .bio-col img{
