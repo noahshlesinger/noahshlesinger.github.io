@@ -16,7 +16,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(237, 226, 180, 0.4);
+    background-color: rgb(255, 255, 255);
 }
 nav img{
     width: 110px;
@@ -35,7 +35,7 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color:white;
+    color:rgb(6, 1, 23);
     text-decoration: none;
 }
 .nav-links ul li::after{
