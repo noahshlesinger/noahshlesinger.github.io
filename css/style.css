@@ -73,11 +73,11 @@ nav img{
     text-decoration:none;
     color:white;
     border: 1px solid white;
-    padding: 12px 34px;
+    padding: 12px 20px;
     font-size:20px;
     background:transparent;
     position: relative;   
-    transition: 1s;
+    transition: 2s;
 }   
 
 nav .fa{
