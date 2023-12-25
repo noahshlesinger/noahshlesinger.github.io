@@ -1,44 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noah Shlesinger</title>
+    <head>
 
-    <link rel="stylesheet" href="css/style.css"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Noah Shlesinger</title>
     
-</head>
-<body>
-    <header>
-        <nav>
-            <ul class = "tabs">
-                <li><a href = "index.html">Overview</a></li>
-                <li><a href = "background.html">Background</a></li>
-                <li><a href = "sponsorship.html">Sponsorship</a></li>
-            </ul>
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;
+    200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e14ace7f41.js"></script>
+    </head>
 
-        </nav>
+    <body>
+        <section class="header_bio">        <!--Setting the image below the navbar-->
+            <nav>
+                <!--<a href = "https://www.teamusa.org/USA-Triathlon/USAT-for-Me/Clubs/Club-Benefits?gclid=Cj0KCQjw_viWBhD8ARIsAH1mCd7cFfLty1_g_PdmomszlmtM2jWXktqKCVGjKmUYJ_NJF6zhGaqa3MAaAnvyEALw_wcB"><img src="images/usat.png"></a>
+                <a href = "https://letusfightforyou.com"><img src="images/sanddattorneys.jpg"></a>
+                <a href = "https://rocketsciencesports.com"><img src="images/LOGO-for-Web.jpg"></a>
+                <a href = "https://www.ku-cycle.com"><img src="images/ku_cycle_blacktext_logo.jpg"></a> -->
+                <div class = "nav-links" id = "navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="#bio">Background</a></li>
+                        <li><a href="#results">Sponsors</a></li> 
+                        <li><a href="#contact">Contact Me</a></li>
+                        <li><a href="#coaching">Coaching</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick = "showMenu()"></i>
+            </nav>
+        </section>    
+        <a id = "bio"></a>
+        <section class ="bio">
+                    <!--I'm trying to write my bio on the left side and a note on why I chose to build my own website on the right. Below that should be several pictures of me throughout my athletic career. -->
+            <div class="row">
+                <div class = "bio-col">
+                    <h>How I ended up in Triathlon</h>
+                    <p>It was the fall of 2019 whenI fell in love with Triathlon and all of its complexities. However, it wasn’t until 2022 that I finally committed myself fully to the sport. In June of last year, I left my engineering job in pursuit of becoming a high-performance athlete and competing at the top level of triathlon. That month I joined the JP Elite Triathlon squad and finished the season with a podium at IM 70.3 Waco. The following winter I broke my collarbone and had to spend the next 6 months rehabbing my shoulder and getting back to good fitness. I managed to rehab in time to compete in IM 70.3 Oregon that July where I finished 3rd again. 
 
-        <head>
-            <ul>
-            <h1 class ="center">Background</h1>
-            <!-- <img class = "jpelite" src = "images/jpelite.png" alt JPELITE> -->
-            </ul>
-        </head>
-    </header>
+                    </p><p> Not quite the season I was hoping for with so much of the year affected by my injury. However, I am now working harder than ever before as I get into 25 hours of training per week. I now turn my eyes to our Florida training camp and the rest of the season with cautious optimism.
+                        </p>
+                </div>
 
-</body>
+                <div class = "bio-col">
+                    <h>Why did I build this website on my own?</h>
+                    <p> Some very compelling reasons with some sentiment and work ethic reasoning.
+                    </p>
+                </div>
+            </div>
 
+            <div class = "row">
+                <div class = "bio-col">
+                    <img src="images/starwars.jpg"></a>
+                    <h>The Phantom Menace</h>
+        
+                </div>
+                <div class = "bio-col">
+                    <img src="images/starwars.jpg"></a>
+                    <h>Attach of the Clones</h>
+        
+                </div>
+                <div class = "bio-col">
+                    <img src="images/starwars.jpg"></a>
+                    <h>Return of the Sith</h>
+        
+                </div>
+        
+            </div>
+        </section> 
+        <!--In the coaching section, I'll introduce myself as a coach and have current athlete bios with picture. I'm thinking split screen(2col) alternating which half has the image-->
+        <a id = "coaching"></a>
+        <section class="coaching">
+            
+            <div class="row"> <!--Bio of athlete #1-->
+                <div class = "bio-col">
+                    <img src="images/outofwater.jpg" alt="profile">
+                    <div class = "layer"></div>
+                    <p></p>
+                </div>
+                <div class = "bio-col">
+                    <h1>Athlete #1</h1>
+                    <p>Bio of Athlete #1. Include How long they've been an athlete with me, what we've done together and where they are going/Goals. </p>
+                </div>
+            </div>
+            <div class="row"><!--Bio of athlete #2-->
+                <div class = "bio-col">
+                    <img src="images/outofwater.jpg" alt="profile">
+                    <div class = "layer"></div>
+                    <p></p>
+                </div>
+                <div class = "bio-col">
+                    <h1>Athlete #2</h1>
+                    <p>Bio of Athlete #2. Include How long they've been an athlete with me, what we've done together and where they are going/Goals. </p>
+                </div>
+            </div>
+            <div class="row"><!--Bio of athlete #3-->
+                <div class = "bio-col">
+                    <img src="images/outofwater.jpg" alt="profile">
+                    <div class = "layer"></div>
+                    <p></p>
+                </div>
+                <div class = "bio-col">
+                    <h1>Athlete #3</h1>
+                    <p>Bio of Athlete #3. Include How long they've been an athlete with me, what we've done together and where they are going/Goals. </p>
+                </div>
+            </div>
+        </section>
+    </body>
 
-
-<footer style = "position:sticky " >
-
-    <ul>
-        <li><img class= "world-triathlon" src="images/world_triathlon_logo.png" alt="WTS"></li>
-        <li><img class= "usa-triathlon" src="images/usat.png" alt="USAT"></li>
-        <li><img class= "defunkify" src="images/defunkify.png" alt="defunkify"></li>
-        <li><img class= "gu_logo" src="images/gu_logo.png" alt="Gu Energy Labs"></li>
-    </ul>
-</footer>
 </html>

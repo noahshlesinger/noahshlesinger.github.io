@@ -3,10 +3,18 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
-.header {
+.header_index {
     min-height:100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.75),rgba(4,9,30,0.75)),url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header_bio {
+    min-height:100vh;
+    width: 100%;
+    background-image: url(../images/starwars.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -127,6 +135,15 @@ nav .fa{
 }
 
 /* ---------sponsors-------- */
+.coaching{
+    width:100%;
+    height:100vh;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+    box-sizing:border-box;
+}
+/* ---------sponsors-------- */
 
 .sponsors{
     width:100%;
@@ -158,15 +175,16 @@ p{
     flex-basis: 33%;
     box-sizing:border-box;
     margin: 10px;
-    transition: 0.5s;
+    transition: 1s;
     text-align:center;
-    object-position:bottom;
-    max-width: 30%;
+    object-position:center;
+    max-width: 20%;
   }
 
 .sponsors-col img{
 
     align-items: center;
+    object-position: center;
     width:200px;
 
 }
@@ -193,7 +211,7 @@ h3{
     margin:auto;
     text-align:center;
     padding-top:50px;
-    background:black;
+    background:ghostwhite;
 }
 .bio-col{
     flex-basis:50%;
@@ -207,21 +225,22 @@ h3{
     
 }
 .bio-col p{
-    font-size:larger;
+    font-size:large;
     text-align: left;
     margin-top: 2%;
-    padding-bottom: 20px;
-    line-height: 140%;
-    color:white;
+    padding-bottom: 10px;
+    line-height: 100%;
+    color:Black;
 }   
 
 .bio-col img{
-    flex-basis: 50%;
-    height: 80%;
+    flex-basis: 30%;
+    height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: contain;    
     
 }
+
 .layer{
     background:transparent;
     height: 100%;
