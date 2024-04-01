@@ -23,7 +23,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.106, 0.065);
+    background-color: rgba(255, 255, 255, 0.106);
 }
 nav img{
     width: 110px;
