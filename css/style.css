@@ -42,7 +42,7 @@ nav img{
     position: center;
 }
 .nav-links ul li a{
-    color:rgb(222, 220, 232);
+    color:rgb(246, 245, 250);
     text-decoration: none;
 }
 .nav-links ul li::after{
