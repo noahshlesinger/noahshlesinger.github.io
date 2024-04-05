@@ -183,8 +183,8 @@ p{
 .sponsors-col img{
 
     align-items: center;
-    object-position: center;
-    width:200px;
+    justify-content:center;
+    width:20%;
 
 }
 h3{
@@ -261,7 +261,7 @@ h3{
     text-align:center;
     padding-top:50px;
     padding-bottom: 30px;
-    background-color: rgba(237, 226, 180, 0.4);
+    background-color: rgba(50, 69, 100, 0.4);
     height:100vh;
     box-sizing:border-box;
 }
