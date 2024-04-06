@@ -178,6 +178,7 @@ p{
     text-align:center;
     object-position:center;
     max-width: 20%;
+    border-radius:50%;
   }
 
 .sponsors-col img{
