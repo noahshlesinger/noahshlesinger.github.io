@@ -182,9 +182,10 @@ p{
 
 .sponsors-col img{
 
-    align-items: auto;
-    width:200px;
-    display:flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 h3{
