@@ -182,12 +182,11 @@ p{
 
 .sponsors-col img{
 
-    align-items: center;
-    justify-content:center;
+    align-items: auto;
     width:200px;
     display:flex;
-
 }
+
 h3{
     text-align:center;
     font-weight: 600px;
