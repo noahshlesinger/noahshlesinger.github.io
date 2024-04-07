@@ -175,14 +175,16 @@ p{
     height:100px;
     float:left;
     background:green;
+    border-right: 5px solid black
   }
 
 .sponsors-table2{
     margin-left:50%;
     width:50%;
-    height: 100px;  
+    height:100px;  
     background:blue;
-    border-left: 5px solid black
+    float:right;
+
 }
 
 h3{
