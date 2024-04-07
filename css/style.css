@@ -188,6 +188,7 @@ p{
     margin-right: auto;
     width: 40%;
     border-radius:50%;
+    object-position: center center;
 }
 
 h3{
