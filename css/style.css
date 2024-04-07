@@ -181,7 +181,8 @@ p{
 .sponsors-table2{
     display:table-row;
     margin-left:50%;
-    height:100px;  
+    height:100px;
+    width:50%;  
     background:blue;
     float:right;
 
