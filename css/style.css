@@ -190,7 +190,6 @@ p{
 
 .sponsors-col img{
 
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
@@ -277,6 +276,15 @@ h3{
     box-sizing:border-box;
 }
 
+
+.contact-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius:20px 20px 10px 30px;
+    object-position: center center; 
+
+}
 .contact p2{
     font-size:large;
     box-sizing:border-box;
