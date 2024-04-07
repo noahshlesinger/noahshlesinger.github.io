@@ -165,6 +165,9 @@ p{
     padding: 10px;
 }
 
+.tables{
+    width:100%;
+}
 
 .sponsors-table1 {
     width:50%;
@@ -177,6 +180,7 @@ p{
     margin-left:50%;
     height: 100px;  
     background:blue;
+    border-left: 5px solid black
 }
 
 h3{
