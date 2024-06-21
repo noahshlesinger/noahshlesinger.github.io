@@ -61,7 +61,7 @@ nav img{
     width: 90%;
     color: white;
     position: absolute;
-    top:50%;
+    top:70%;
     left:50%;
     transform: translate(-50%,-50%);
     text-align:center;
@@ -133,7 +133,7 @@ nav .fa{
     }
 }
 
-/* ---------sponsors-------- */
+/* ---------coaching-------- */
 .coaching{
     width:100%;
     height:100vh;
@@ -142,56 +142,75 @@ nav .fa{
     padding-top:100px;
     box-sizing:border-box;
 }
-/* ---------sponsors-------- */
 
-.sponsors{
-    width:100%;
-    height:100vh;
-    margin:auto;
+/* ---------highlights--------*/
+
+.highlights {
+    background-image: linear-gradient(rgba(124, 123, 129, 0.3),rgba(4,9,30,0.3));
+    padding-bottom: 3%;
+
+}
+.highlights h1{
+    padding-top:3% ;
+    font-style: bold;
     text-align:center;
-    padding-top:100px;
-    box-sizing:border-box;
-}
-h1{
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 200%;
+}   
 
-}
-p{
-    color:black;
-    font-size:14px;
-    font-weight: 300;
-    line-height:22px;
-    padding: 10px;
-}
-
-.tables{
-    width:100%;
-}
-
-.sponsors-table1 {
-    display: table-row;
-    width:50%;
-    height:100px;
-    float:left;
-    background:green;
-    border-right: 5px solid black
-  }
-
-.sponsors-table2{
-    display:table-row;
-    margin-left:50%;
-    height:100px;
-    width:50%;  
-    background:blue;
+.highlights p{
+    width: 50%;
+    text-align:justify;
     float:right;
+    margin-top:12%;
+    margin-right:5%;
+    margin-left:2%;
+    font-size: large;
+    line-height: 150%;
+    font-style: oblique;
+
+    
+}
+.highlights img:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.6);
+    transition: 0.0s;
+}
+
+
+.highlights img{
+    width: 35%;
+    height:auto;
+    margin-left: 5%;
+    margin-right:2%;
+    margin-top: 5%;
+    margin-bottom:0%;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 3%;
+    display: inline-flex;
 
 }
 
-h3{
+/* ---------sponsors-------- */
+.sponsors{
+    background-color: white;
+}
+.sponsors img:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.9);
+}
+.sponsors img{
+    width: auto;
+    height:120px;
+    margin-left: 10.8%;
+    margin-right:10%;
+    margin-top: 1%;
+    margin-bottom:1%;
+    border-radius: 5%;
+}
+
+.h3{
     text-align:center;
     font-weight: 600px;
-    margin:10px 0;
+    margin:10px 10px;
 }
 
 .sponsors-col:hover{
@@ -207,20 +226,26 @@ h3{
 }
 /* -------Bio-------- */
 .bio{
+
+    min-height:100vh;
     width:100%;
     margin:auto;
-    text-align:center;
-    padding-top:50px;
-    background:rgba(26, 26, 228, 0.421)
+    background-image: linear-gradient(rgba(4, 9, 30, 0.75),rgba(4,9,30,0.75)),url(../images/Ku\ Cycle\ black\ logo\ white\ background\ vectors.pdf);
+    background-position: center;
+    background-size: cover;
 }
+
+.bio h1{
+    padding-top:3% ;
+    font-style: bold;
+    text-align:center;
+    font-size: 200%;
+} 
 .bio-col{
-    flex-basis:50%;
+    max-width:60%;
+    height:auto;
     border-radius: 20px;
-    margin-bottom:30px;
-    position:relative;
-    overflow:hidden;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left: 20%
     
     
 }
@@ -234,10 +259,16 @@ h3{
 }   
 
 .bio-col img{
-    flex-basis: 30%;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;    
+
+    width: 35%;
+    height:auto;
+    margin-left: 5%;
+    margin-right:2%;
+    margin-top: 5%;
+    margin-bottom:0%;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 3%;
     
 }
 
@@ -257,7 +288,8 @@ h3{
 }
 /* --------Contact Me----- */
 .contact {
-    width:50%;
+    width:100%;
+    height:100vh;
     margin:auto;
     text-align:center;
     padding-top:50px;
@@ -268,11 +300,11 @@ h3{
 }
 
 
-.contact-img{
+.contact img{
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    border-radius:20px 20px 10px 30px;
+    border-radius:40%;
     object-position: center center; 
 
 }
