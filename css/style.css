@@ -227,7 +227,7 @@ nav .fa{
 /* -------Bio-------- */
 .bio{
 
-    min-height:100vh;
+    min-height:80vh;
     width:100%;
     margin:auto;
     background-image: linear-gradient(rgba(4, 9, 30, 0.75),rgba(4,9,30,0.75)),url(../images/Ku\ Cycle\ black\ logo\ white\ background\ vectors.pdf);
@@ -241,51 +241,28 @@ nav .fa{
     text-align:center;
     font-size: 200%;
 } 
-.bio-col{
-    max-width:60%;
-    height:auto;
-    border-radius: 20px;
-    margin-left: 20%
-    
-    
-}
-.bio-col p{
+
+.bio p{
     font-size:large;
-    text-align: left;
-    margin-top: 2%;
-    padding-bottom: 10px;
     line-height: 200%;
     color:Black;
+    max-width: 60%;
+    margin-top:3%;
+    margin-left:5%;
+    float: left;
 }   
 
-.bio-col img{
-
-    width: 35%;
+.bio img{
+    width: 21%;
     height:auto;
-    margin-left: 5%;
-    margin-right:2%;
-    margin-top: 5%;
-    margin-bottom:0%;
+    padding:1%;
+    float:right;
+    margin-right:10%;
+    align-items: center;
     border-color: black;
-    border-width: 10px;
-    border-radius: 3%;
     
 }
 
-.layer{
-    background:transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top:0;
-    left: 0;
-    transition:0.5s;
-
-}
-.layer:hover{
-    background:transparent;
-
-}
 /* --------Contact Me----- */
 .contact {
     width:100%;
@@ -301,9 +278,8 @@ nav .fa{
 
 
 .contact img{
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+
+    width: 30%;
     border-radius:40%;
     object-position: center center; 
 
@@ -312,4 +288,44 @@ nav .fa{
     font-size:large;
     box-sizing:border-box;
     font-style:bold;
+}
+
+/* -----1st Phorm---*/
+.firstphorm{
+    margin:20px;
+    background-color: rgba(19, 40, 62, 0.49);
+    border-color: black;
+    padding-bottom: 7%;;
+}
+.firstphorm img{
+    width: 10%;
+    height:auto;
+    border-width: 10px;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.firstphorm img:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.9);
+}
+
+.firstphorm p{
+    width: 70%;
+    text-align:justify;
+    float:right;
+    font-size: large;
+    line-height: 150%;
+    font-style: oblique;
+    margin-right:10%;
+    margin-top:1%; 
+}
+
+.firstphorm h{
+    font-size: larger;
+    font-weight: 300;
+    text-align:center;
+    float:inherit;
+
+
 }
