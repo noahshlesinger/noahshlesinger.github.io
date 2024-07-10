@@ -75,6 +75,16 @@ nav img{
     color: white;
 }
 
+.text-box p1{
+    padding-top:10px;
+    margin-top: 10%;
+    margin-left:3%;
+    margin-right:3%;
+    font-size: 30px;
+    color:rgb(0, 229, 255);
+    text-shadow: 2px 2px 2px black;
+}
+
 .hero-btn{
     display: inline-block;
     text-decoration:none;
@@ -240,6 +250,7 @@ nav .fa{
     font-style: bold;
     text-align:center;
     font-size: 200%;
+    text-shadow: 1px 1px 1px whitesmoke;
 } 
 
 .bio p{
@@ -284,8 +295,14 @@ nav .fa{
     object-position: center center; 
 
 }
+
+.contact h1{
+    font-size:x-large;
+    font-style:bold;
+    text-shadow:black;
+}
 .contact p2{
-    font-size:large;
+    font-size:larger;
     box-sizing:border-box;
     font-style:bold;
 }
