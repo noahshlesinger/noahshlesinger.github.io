@@ -346,3 +346,33 @@ nav .fa{
 
 
 }
+
+
+.header_index2 {
+    min-height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.75),rgba(4,9,30,0.75)),url(../images/cap_tex_finish.JPG);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.pitchpage1{
+    background-color:grey;
+    min-height:100vh;
+    width:100%;
+}
+.pitchpage2{
+    background-color:rgb(159, 110, 110);
+    min-height:100vh;
+    width:100%;
+}
+.pitchpage3{
+    background-color:rgb(128, 128, 128);
+    min-height:100vh;
+    width:100%;
+}
+.pitchpage4{
+    background-color:rgb(228, 128, 128);
+    min-height:100vh;
+    width:100%;
+}
