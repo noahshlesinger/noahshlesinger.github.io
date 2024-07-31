@@ -348,7 +348,7 @@ nav .fa{
 }
 
 
-.header_index2 {
+.header_index2{
     min-height:100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.75),rgba(4,9,30,0.75)),url(../images/cap_tex_finish.JPG);
