@@ -167,6 +167,7 @@ nav .fa{
     font-size: 200%;
 }   
 
+
 .highlights p{
     width: 50%;
     text-align:justify;
@@ -338,16 +339,17 @@ nav .fa{
     margin-top:1%; 
 }
 
-.firstphorm h{
+.firstphorm h1{
     font-size: larger;
-    font-weight: 300;
-    text-align:center;
-    float:inherit;
+    font-weight: 400;
+    color:white;
+    margin-left:3%;
+    float:left;
 
 
 }
 
-
+/* ----------------New Balance Pitch Page------------------- */
 .header_index2{
     min-height:100vh;
     width: 100%;
@@ -356,21 +358,81 @@ nav .fa{
     background-size: cover;
     position: relative;
 }
+/* --page 1-- */
 .pitchpage1{
-    background-color:grey;
+    background-color:white;
     min-height:100vh;
     width:100%;
 }
+
+.pitchpage1 img{
+    margin-right:10%;
+    margin-left:18%;
+    margin-top: 2%;
+    margin-bottom:2%;
+
+}
+
+.pitchpage1 h1{
+    position: center;
+    text-align: center;
+    font-size: 45;
+    color:black;
+    margin:2%;
+}
+.pitchpage1 p{
+    text-align:center;
+    font-size: 55;
+    margin-right:2%;
+    margin-bottom:3%;
+}
+/* --page2-- */
 .pitchpage2{
-    background-color:rgb(159, 110, 110);
+    background-color:rgba(0, 0, 128, 0.47);
     min-height:100vh;
     width:100%;
 }
+
+.pitchpage2 h1{
+    position: center;
+    text-align: center;
+    font-size: 50px;
+    color:Gold;
+    padding-top:4%;
+    margin:4%;
+}
+
+.pitchpage2 p{
+    margin:5%;
+    font-size: 25px;
+    color: white;
+}
+
+.pitchpage2 img{
+    height:40%;
+    width:auto;
+    margin:2%;
+    border-radius: 20%;
+    vertical-align:middle;
+   
+}
+.pitchpage2 img:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.9);
+}
+
+
+
+
+
+/* --page3-- */
+
 .pitchpage3{
     background-color:rgb(128, 128, 128);
     min-height:100vh;
     width:100%;
 }
+/* --page 4-- */
+
 .pitchpage4{
     background-color:rgb(228, 128, 128);
     min-height:100vh;
