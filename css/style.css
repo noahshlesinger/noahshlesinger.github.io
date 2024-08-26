@@ -310,7 +310,7 @@ nav .fa{
 @media(max-width:900px){
 
     .highlights1{
-        min-height:62vh;
+        min-height:80vh;
     }
     .highlights1 p{
         margin-top:5%;
@@ -331,7 +331,7 @@ nav .fa{
     }
     
     .highlights2{
-        min-height:62vh;
+        min-height:80vh;
     }
     .highlights2 p{
         margin-top:5%;
@@ -352,7 +352,7 @@ nav .fa{
     }
     
     .highlights3{
-        min-height:62vh;
+        min-height:80vh;
     }
     .highlights3 p{
         margin-top:5%;
@@ -453,7 +453,7 @@ nav .fa{
 
 @media(max-width:900px){
     .bio{
-        min-height:80vh;
+        min-height:100vh;
         width:100%;
         margin:auto;
         background-image: linear-gradient(rgba(127, 144, 213, 0.9),rgba(214, 222, 254, 0.9)),url(../images/bw_rss_bike.jpg);
@@ -578,7 +578,7 @@ nav .fa{
 @media(max-width:900px){
     .firstphorm{
         margin:20px;
-        height:45vh;
+        height:75vh;
         background-color: rgba(19, 40, 62, 0.49);
         border-color: black;
         padding-bottom: 7%;
