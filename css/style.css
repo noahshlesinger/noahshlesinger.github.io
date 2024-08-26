@@ -102,10 +102,19 @@ nav .fa{
 }
 @media(max-width:900px){
     .text-box h1{
-      font-size:35px;
+      font-size:40px;
+      float:left;
+      text-shadow: 3px 3px 3px black;
     }
     .text-box p{
-        font-size: 20px;
+        font-size: 30px;
+        float:right;
+        text-shadow: 2px 2px 2px black;
+    }
+    .text-box p1{
+        font-size:23px;
+        float:left;
+        color:whitesmoke;
     }
     .hero-btn{
         font-size:15;
@@ -113,7 +122,7 @@ nav .fa{
     .nav-links ul li{
         display:block;
     }
-    .nav-links{
+    /* .nav-links{
         position:absolute;
         background: rgba(26, 129, 170, 0.95);
         height: 100vh;
@@ -125,7 +134,7 @@ nav .fa{
         transition: 1s;
 
 
-    }
+    } */
     nav img{
         width: 80px;
         padding: 4px;
@@ -154,13 +163,14 @@ nav .fa{
 }
 
 /* ---------highlights--------*/
+/* 1 */
 
-.highlights {
+.highlights1 {
     background-image: linear-gradient(rgba(124, 123, 129, 0.3),rgba(4,9,30,0.3));
     padding-bottom: 3%;
 
 }
-.highlights h1{
+.highlights1 h1{
     padding-top:3% ;
     font-style: bold;
     text-align:center;
@@ -168,11 +178,11 @@ nav .fa{
 }   
 
 
-.highlights p{
+.highlights1 p{
     width: 50%;
     text-align:justify;
     float:right;
-    margin-top:12%;
+    margin-top:5%;
     margin-right:5%;
     margin-left:2%;
     font-size: large;
@@ -181,13 +191,13 @@ nav .fa{
 
     
 }
-.highlights img:hover{
+.highlights1 img:hover{
     box-shadow:0 0 20px 0px rgba(0,0,0,0.6);
     transition: 0.0s;
 }
 
 
-.highlights img{
+.highlights1 img{
     width: 35%;
     height:auto;
     margin-left: 5%;
@@ -199,6 +209,168 @@ nav .fa{
     border-radius: 3%;
     display: inline-flex;
 
+}
+/* 2 */
+
+.highlights2 {
+    background-image: linear-gradient(rgba(110, 107, 127, 0.3),rgba(4,9,30,0.3));
+    padding-bottom: 3%;
+
+}
+.highlights2 h1{
+    padding-top:3% ;
+    font-style: bold;
+    text-align:center;
+    font-size: 200%;
+}   
+
+
+.highlights2 p{
+    width: 50%;
+    text-align:justify;
+    float:right;
+    margin-top:8%;
+    margin-right:5%;
+    margin-left:2%;
+    font-size: large;
+    line-height: 150%;
+    font-style: oblique;
+
+    
+}
+.highlights2 img:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.6);
+    transition: 0.0s;
+}
+
+
+.highlights2 img{
+    width: 35%;
+    height:auto;
+    margin-left: 5%;
+    margin-right:2%;
+    margin-top: 5%;
+    margin-bottom:0%;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 3%;
+    display: inline-flex;
+
+}
+
+/* 3 */
+
+
+.highlights3 {
+    background-image: linear-gradient(rgba(104, 99, 132, 0.3),rgba(4,9,30,0.3));
+    padding-bottom: 3%;
+
+}
+.highlights3 h1{
+    padding-top:3% ;
+    font-style: bold;
+    text-align:center;
+    font-size: 200%;
+}   
+
+
+.highlights3 p{
+    width: 50%;
+    text-align:justify;
+    float:right;
+    margin-top:5%;
+    margin-right:5%;
+    margin-left:2%;
+    font-size: large;
+    line-height: 150%;
+    font-style: oblique;
+
+    
+}
+.highlights3 img:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.6);
+    transition: 0.0s;
+}
+
+
+.highlights3 img{
+    width: 35%;
+    height:auto;
+    margin-left: 5%;
+    margin-right:2%;
+    margin-top: 5%;
+    margin-bottom:2%;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 3%;
+    display: inline-flex;
+
+}
+
+@media(max-width:900px){
+
+    .highlights1{
+        min-height:62vh;
+    }
+    .highlights1 p{
+        margin-top:5%;
+        font-size: medium;
+        line-height: 120%;
+        font-style: oblique; 
+        float:left;
+        margin:2%;
+        margin-left:4%;
+        width:90%; 
+    }
+    .highlights1 img{
+        width: 88%;
+        height:auto;
+        border-color: black;
+        border-width: 10px;
+        border-radius: 3%;
+    }
+    
+    .highlights2{
+        min-height:62vh;
+    }
+    .highlights2 p{
+        margin-top:5%;
+        font-size: medium;
+        line-height: 120%;
+        font-style: oblique; 
+        float:left;
+        margin:2%;
+        margin-left:4%;
+        width:90%; 
+    }
+    .highlights2 img{
+        width: 88%;
+        height:auto;
+        border-color: black;
+        border-width: 10px;
+        border-radius: 3%;
+    }
+    
+    .highlights3{
+        min-height:62vh;
+    }
+    .highlights3 p{
+        margin-top:5%;
+        font-size: medium;
+        line-height: 120%;
+        font-style: oblique; 
+        float:left;
+        margin:2%;
+        margin-left:4%;
+        width:90%; 
+    }
+    .highlights3 img{
+        width: 88%;
+        height:auto;
+        border-color: black;
+        border-width: 10px;
+        border-radius: 3%;
+    }
 }
 
 /* ---------sponsors-------- */
@@ -231,9 +403,14 @@ nav .fa{
 
 
 @media(max-width:900px){
-    .row{
-        flex-direction:column;
+    .sponsors img{
+        width: auto;
+        height:50px;
+        margin-right:3%;
+        margin-left:4%;
+        border-radius: 5%;
     }
+    
 }
 /* -------Bio-------- */
 .bio{
@@ -241,7 +418,7 @@ nav .fa{
     min-height:80vh;
     width:100%;
     margin:auto;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.75),rgba(4,9,30,0.75)),url(../images/Ku\ Cycle\ black\ logo\ white\ background\ vectors.pdf);
+    background-image: linear-gradient(rgba(224, 226, 234, 0.75),rgba(4,9,30,0.75));
     background-position: center;
     background-size: cover;
 }
@@ -251,7 +428,6 @@ nav .fa{
     font-style: bold;
     text-align:center;
     font-size: 200%;
-    text-shadow: 1px 1px 1px whitesmoke;
 } 
 
 .bio p{
@@ -275,24 +451,65 @@ nav .fa{
     
 }
 
+@media(max-width:900px){
+    .bio{
+        min-height:80vh;
+        width:100%;
+        margin:auto;
+        background-image: linear-gradient(rgba(127, 144, 213, 0.9),rgba(214, 222, 254, 0.9)),url(../images/bw_rss_bike.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .bio h1{
+        padding-top:7% ;
+        font-style: bold;
+        text-align:center;
+        font-size: larger;
+        color:black;
+
+    } 
+    
+    .bio p{
+        margin-top:6%;
+        font-size: medium;
+        line-height: 165%;
+        float:left;
+        margin:2%;
+        margin-left:5%;
+        max-width:90%; 
+        color:black;
+    }   
+    
+    .bio img{
+        width: 0%;
+        height:auto;
+        padding:1%;
+        float:right;
+        margin-right:2%;
+        border-color: black;
+        
+    }
+
+}
+
 /* --------Contact Me----- */
 .contact {
     width:100%;
-    height:100vh;
+    height:35vh;
     margin:auto;
     text-align:center;
     padding-top:50px;
+    line-height:200%;
     padding-bottom: 30px;
-    background-color: rgba(50, 69, 100, 0.4);
-    height:100vh;
+    background-color:white;
     box-sizing:border-box;
 }
 
 
 .contact img{
 
-    width: 30%;
-    border-radius:40%;
+    width: 20%;
+    border-radius:50%;
     object-position: center center; 
 
 }
@@ -303,10 +520,18 @@ nav .fa{
     text-shadow:black;
 }
 .contact p2{
-    font-size:larger;
+    font-size:large;
     box-sizing:border-box;
     font-style:bold;
 }
+
+@media(max-width:900px){
+    .contact{
+        height:35vh;
+        background-color:white;
+    }
+}
+
 
 /* -----1st Phorm---*/
 .firstphorm{
@@ -329,7 +554,7 @@ nav .fa{
 }
 
 .firstphorm p{
-    width: 70%;
+    width: 65%;
     text-align:justify;
     float:right;
     font-size: large;
@@ -341,13 +566,47 @@ nav .fa{
 
 .firstphorm h1{
     font-size: larger;
-    font-weight: 400;
+    font-weight: bold;
     color:white;
     margin-left:3%;
+    margin-top:4%;
     float:left;
 
 
 }
+
+@media(max-width:900px){
+    .firstphorm{
+        margin:20px;
+        height:45vh;
+        background-color: rgba(19, 40, 62, 0.49);
+        border-color: black;
+        padding-bottom: 7%;
+    }
+
+    .firstphorm p{
+        margin-top:5%;
+        font-size: medium;
+        line-height: 120%;
+        font-style: oblique; 
+        float:left;
+        margin-right:2%;
+        margin-left:3%;
+        width:90%; 
+    }    
+    .firstphorm h1{
+        font-size: larger;
+        font-weight: bold;
+        color:white;
+        margin-left:1%;
+        margin-right:50%;
+        margin-top:5%;
+        float:right;
+    
+    
+    }
+}
+
 
 /* ----------------New Balance Pitch Page------------------- */
 .header_index2{
@@ -382,13 +641,14 @@ nav .fa{
 }
 .pitchpage1 p{
     text-align:center;
-    font-size: 55;
+    font-size: larger;
+    font-weight: bold;
     margin-right:2%;
     margin-bottom:3%;
 }
 /* --page2-- */
 .pitchpage2{
-    background-color:rgba(0, 0, 128, 0.47);
+    background-color:rgba(47, 7, 225, 0.801);
     min-height:100vh;
     width:100%;
 }
@@ -403,17 +663,29 @@ nav .fa{
 }
 
 .pitchpage2 p{
-    margin:5%;
-    font-size: 25px;
+    width: 50%;
+    text-align:justify;
+    float:right;
+    margin-top:5%;
+    margin-right:5%;
+    margin-left:2%;
+    font-size: larger;
+    line-height: 150%;
+    font-style: oblique;
     color: white;
 }
 
 .pitchpage2 img{
-    height:40%;
-    width:auto;
-    margin:2%;
-    border-radius: 20%;
-    vertical-align:middle;
+    width: 35%;
+    height:auto;
+    margin-left: 5%;
+    margin-right:2%;
+    margin-top: 2%;
+    margin-bottom:0%;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 3%;
+    display: inline-flex;
    
 }
 .pitchpage2 img:hover{
@@ -427,9 +699,14 @@ nav .fa{
 /* --page3-- */
 
 .pitchpage3{
-    background-color:rgb(128, 128, 128);
+    background-color:white;
     min-height:100vh;
     width:100%;
+}
+.pitchpage3 img{
+
+    position: absolute;
+    text-align: center;
 }
 /* --page 4-- */
 
