@@ -140,7 +140,7 @@ nav .fa{
         padding: 4px;
     
     }
-    nav .fa{
+    /* nav .fa{
         display:block;
         color: white;
         margin: 10px;
@@ -149,7 +149,7 @@ nav .fa{
     }
     .nav-links ul{
         padding: 10px;
-    }
+    } */
 }
 
 /* ---------coaching-------- */
@@ -382,8 +382,8 @@ nav .fa{
 }
 .sponsors img{
     width: auto;
-    height:120px;
-    margin-left: 8%;
+    height:100px;
+    margin-left: 4%;
     margin-right:5%;
     margin-top: 1%;
     margin-bottom:1%;
@@ -405,10 +405,12 @@ nav .fa{
 @media(max-width:900px){
     .sponsors img{
         width: auto;
-        height:50px;
-        margin-right:3%;
-        margin-left:4%;
-        border-radius: 5%;
+        display:block;
+        height:120px;
+        align-items: center;
+        margin:auto;
+        margin-bottom:5%;
+        margin-top:5%;
     }
     
 }
